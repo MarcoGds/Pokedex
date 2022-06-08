@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b49e5393-5a36-46bc-b019-a128b137f8a5/deploy-status)](https://app.netlify.com/sites/idyllic-jalebi-22e18d/deploys)
+
 # Pokedex created for Zappts recruitment process
 
 A simple web application developed in ReactJS of a pokedex using PokeAPI.
@@ -46,4 +48,3 @@ I already listed the major problems that I had during the development. The next 
 
 - Increase the cards appearance
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b49e5393-5a36-46bc-b019-a128b137f8a5/deploy-status)](https://app.netlify.com/sites/idyllic-jalebi-22e18d/deploys)
