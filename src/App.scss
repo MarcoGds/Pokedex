@@ -1,0 +1,20 @@
+.col-sm-4 {
+  padding-top: 200px;
+}
+
+strong {
+  position: relative;
+}
+
+strong::before {
+  background-color: rgb(255,218,85);
+
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 60%;
+  left: 10px;
+  bottom: 0;
+  z-index: -1;
+}
+

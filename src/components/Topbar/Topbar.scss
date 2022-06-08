@@ -1,0 +1,21 @@
+$fontColor: black;
+
+hr {
+  box-shadow: 5px 5px 6px 2px black;
+}
+
+div.container {
+  padding: 0px 90px 0px 90px;
+
+}
+
+a {
+  color: $fontColor !important;
+  font-size: 30px;
+  padding: 10px 0px 10px 90px;
+  text-decoration: none !important;
+}
+
+div.navLinks.container {
+  padding-right: 100px;
+}
