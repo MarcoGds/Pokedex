@@ -4,8 +4,6 @@ import React, { useState, useEffect } from "react";
 import '../components/Description/Description.scss';
 
 import PokemonCard from "../components/Cards/Cards";
-import Description from "../components/Description/Description";
-
 
 export function StatusPage() {
 
