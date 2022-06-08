@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Pokedex created for Zappts recruitment process
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple web application developed in ReactJS of a pokedex using PokeAPI.
 
-## Available Scripts
+## Stack
 
-In the project directory, you can run:
+**Front-end:** React, SASS, React Router, Axios.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Functionalities
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Navbar for easy navigation
+- Search bar for specific pokémon information
+- Cards with pokemon informations in order of realease
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Development
 
-### `npm run build`
+I stared a lot of challenges during the development. At first it looks a really simples and easy job to do, but deal with all the information that we get from an API and stylize them are a real challenge. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I started by creating the Navbar. That out of the way I could develop all my routes, making my application faster and easier to maintain.
+At this point it was time to get all the API information that I needed to display, print it on the screen and stylize everything.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+With the time given this result was the best that I could achieve, but I won't stop here.
+I had a lot of fun developing this application and I'm not satisfied with the current result. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I could't stylize the info that we get by the search bar. The pokémons cards have some different sizes. The button mouse hover is acting weird right now, he's incresing the button size.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+I already listed the major problems that I had during the development. The next steps will be those topics improvements.
 
-### Analyzing the Bundle Size
+- Create a card for pokémon data received by search bar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Stylize the search bar and button
 
-### Making a Progressive Web App
+- Add a category filter
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Increase the cards appearance
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
