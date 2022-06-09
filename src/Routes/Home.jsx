@@ -4,6 +4,7 @@ import '../App.scss';
 
 import pageImage from '../pageImage.png';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export function Home() {
 
@@ -32,7 +33,10 @@ export function Home() {
                 }
               `}
             </style>
-            <Button href='/statuspage' variant='flat' size="xx1">Veja os pokémons</Button>{' '}
+            <Link to="/statuspage">
+              <Button variant='flat' size="xx1">Veja os pokémons</Button>{' '}
+            </Link>
+
           </Col>
           <Col sm={8}><img
             src={pageImage}
